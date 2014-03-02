@@ -1,7 +1,7 @@
 # twcounty
 
-Code to recreate the results for the paper: "Estimating County Health
-Statistics with Twitter," Aron Culotta, CHI 2014.
+Code to recreate the results for the paper: [Estimating County Health
+Statistics with Twitter](http://www.cs.iit.edu/~culotta/pubs/culotta14estimating.pdf), Aron Culotta, CHI 2014.
 
 Note that this is not intended as a library for Twitter analysis; instead,
 it's main goal is to allow other researchers to reproduce results. This is
@@ -25,7 +25,7 @@ install QUAC manually following
 
 ## Data
 
-1. Paths to [LIWC](http://www.liwc.net/) and [PERMA](http://www.cis.upenn.edu/~ungar/CVs/WWBP.html) lexicons should be in environmental variables `$LIWC` and `$PERMA`. (Unfortunately, these are not free for download.) The expected format is:
+- Paths to [LIWC](http://www.liwc.net/) and [PERMA](http://www.cis.upenn.edu/~ungar/CVs/WWBP.html) lexicons should be in environmental variables `$LIWC` and `$PERMA`. (Unfortunately, these are not free for download.) The expected format is:
 
 ```
 %
@@ -36,7 +36,8 @@ install QUAC manually following
 he    1
 pretty     2
 ...
-2. The code expects tweets in `/data/twcounty/json/`. Each file should be
+```
+- The code expects tweets in `/data/twcounty/json/`. Each file should be
 named after the
 [FIPS](http://en.wikipedia.org/wiki/Federal_Information_Processing_Standards)
 of the county from which the tweets originated. The contents should be the raw
@@ -48,6 +49,6 @@ API to retrieve the raw content.
 ## Reproducing results
 
 Once everything is installed and the data is in place, you should be able to
-run the script `run.sh`. Results will be written to `paper/tables` and
+run the script [`run.sh`](run.sh). Results will be written to `paper/tables` and
 `paper/figs`. Pickled data files and raw results will be in
 `/data/twcounty/features`.
