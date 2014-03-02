@@ -1,0 +1,9 @@
+matplotlib
+numpy
+psutil
+pysal
+rpy2
+scipy
+sklearn
+tinysegmenter
+utm
