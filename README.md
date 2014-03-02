@@ -4,7 +4,7 @@ Code to recreate the results for the paper: [Estimating County Health
 Statistics with Twitter](http://www.cs.iit.edu/~culotta/pubs/culotta14estimating.pdf), Aron Culotta, CHI 2014.
 
 Note that this is not intended as a library for Twitter analysis; instead,
-it's main goal is to allow other researchers to reproduce results. This is
+its main goal is to allow other researchers to reproduce results. This is
 unfortunately not that easy to do, since it relies on Twitter data (which is
 hard to share) and LIWC and PERMA lexicons (which are not freely available).
 
