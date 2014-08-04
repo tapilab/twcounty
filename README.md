@@ -8,6 +8,7 @@ its main goal is to allow other researchers to reproduce results. This is
 unfortunately not that easy to do, since it relies on Twitter data (which is
 hard to share) and LIWC and PERMA lexicons (which are not freely available).
 
+I've also included an [iPython notebook](http://nbviewer.ipython.org/github/tapilab/twcounty/blob/master/twcounty/Demographics.ipynb) for the reweighting experiments presented at [JSM 2014](http://www.amstat.org/meetings/jsm/2014).
 ## Installation
 
 - Dependencies are listed in [`requirements.txt`](requirements.txt).
