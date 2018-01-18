@@ -47,6 +47,9 @@ TOS, please send email to Aron Culotta (aronwc at gmail.com), and I'll send
 you the list of tweet IDs. You will then have to submit queries to the Twitter
 API to retrieve the raw content.
 
+The county health outcome data come from the 2013 report from CountyHealthRankings.org:
+<http://www.countyhealthrankings.org/sites/default/files/2013CountyHealthRankingsNationalData.xls>
+
 ## Reproducing results
 
 Once everything is installed and the data is in place, you should be able to
